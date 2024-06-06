@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-27T22:39:42 PKT" name="Default suite" finished-at="2021-07-27T23:05:04 PKT" duration-ms="1522695">
+    <groups>
+    </groups>
+    <test started-at="2021-07-27T22:39:42 PKT" name="Default test" finished-at="2021-07-27T23:05:04 PKT" duration-ms="1522695">
+      <class name="tests.BrokenLinksTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:39:42 PKT" name="startReport" finished-at="2021-07-27T22:39:42 PKT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="brokenLinksOnResetPasswordPage()[pri:0, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:39:42 PKT" name="brokenLinksOnResetPasswordPage" finished-at="2021-07-27T22:40:51 PKT" duration-ms="69534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksOnResetPasswordPage -->
+        <test-method signature="brokenLinksOnLocateDealerPage()[pri:1, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:40:51 PKT" name="brokenLinksOnLocateDealerPage" finished-at="2021-07-27T22:42:02 PKT" duration-ms="71115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksOnLocateDealerPage -->
+        <test-method signature="brokenLinksOnRecallNewsPage()[pri:2, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:42:02 PKT" name="brokenLinksOnRecallNewsPage" finished-at="2021-07-27T22:42:57 PKT" duration-ms="54533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksOnRecallNewsPage -->
+        <test-method signature="brokenLinksOnLoginPage()[pri:3, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:42:57 PKT" name="brokenLinksOnLoginPage" finished-at="2021-07-27T22:43:42 PKT" duration-ms="45340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksOnLoginPage -->
+        <test-method signature="validateLinks()[pri:4, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:43:42 PKT" name="validateLinks" finished-at="2021-07-27T22:44:07 PKT" duration-ms="24434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinks -->
+        <test-method signature="brokenLinksOnCreateAccountPage()[pri:5, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:44:07 PKT" name="brokenLinksOnCreateAccountPage" finished-at="2021-07-27T22:45:18 PKT" duration-ms="70785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksOnCreateAccountPage -->
+        <test-method signature="brokenLinksOnAfterLoggedInPage()[pri:6, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T22:45:18 PKT" name="brokenLinksOnAfterLoggedInPage" finished-at="2021-07-27T23:05:00 PKT" duration-ms="1182810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksOnAfterLoggedInPage -->
+        <test-method is-config="true" signature="killDriver()[pri:0, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T23:05:00 PKT" name="killDriver" finished-at="2021-07-27T23:05:04 PKT" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:tests.BrokenLinksTest@732c2a62]" started-at="2021-07-27T23:05:04 PKT" name="flush" finished-at="2021-07-27T23:05:04 PKT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- tests.BrokenLinksTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

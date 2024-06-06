@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Zain Test Run]">
+  <test thread-count="5" name="Zain Test(failed)">
+    <classes>
+      <class name="AllTests.QuickPayTest">
+        <methods>
+          <include name="QuickPayWithC26852"/>
+          <include name="transactionFailedErrorMessage" invocation-numbers="0 1 2 3 4"/>
+          <include name="startReport"/>
+          <include name="decimalPointNotAllowed" invocation-numbers="0 1 2"/>
+          <include name="rechargeFailedMessageDisplayed" invocation-numbers="0 1"/>
+          <include name="verifyIncompleteCardNumberMessageIsDisplaying" invocation-numbers="0 1 2 3 4"/>
+          <include name="greaterThan14DigitsVoucherNumberValidation" invocation-numbers="0 1"/>
+          <include name="rechargeVoucherEmptyFieldValidation" invocation-numbers="0 1"/>
+          <include name="flush"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- AllTests.QuickPayTest -->
+    </classes>
+  </test> <!-- Zain Test(failed) -->
+</suite> <!-- Failed suite [Zain Test Run] -->

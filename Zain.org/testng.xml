@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Zain Test Run">
+  <test name="Zain Test">
+    <classes>
+     <!--  <class name="AllTests.HelpTest"/>
+      <class name="AllTests.ForgetPasswordTest"/>
+      <class name="AllTests.LoginTest"/>
+       -->
+       <class name="AllTests.QuickPayTest"/>
+    </classes>
+  </test>
+</suite>
