@@ -10,3 +10,4 @@ for i in range(1, 365):  # Loop over 365 days (1 year)
         os.system(f'git commit --date="{d}" -m "commit"')  # Commit with a past date
 
 os.system('git push -u origin main')  # Push commits to GitHub
+print("Code Successfully Completed")
